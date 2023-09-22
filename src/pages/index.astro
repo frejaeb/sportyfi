@@ -1,0 +1,101 @@
+---
+import PlayVisAlle from "../components/PlayVisAlle.astro";
+import PlaylistCard from "../components/PlaylistCard.astro";
+import "../styles/style.css";
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="../styles/style.css">
+		<title>Astro</title>
+	</head>
+	<body>
+		<!-- <header>
+			<article>
+				<a href="/">pil tilbage</a>
+				<a href=/">pil frem</a>
+			</article>
+			<article>
+<button>tilmeld dig</button>
+<button>Log på</button>
+			</article>
+		</header>
+		<nav>
+			<article>
+				<a href="#/">spotyfi</a>
+				<a href="#/">hjem</a>
+				<a href="#/">søg</a>
+			</article>
+			<article>
+				<img src="/" alt="ikon">
+				<h2>Dit bibliotek</h2>
+				<button>+</button>
+				<section>
+					<h3>opret din playliste</h3>
+					<p>det er nemt</p>
+					<button>Playliate </button>
+				</section>
+				<section>
+					<h3>Lad os finde podcasts</h3>
+					<p>Vi holder dig orienteret</p>
+					<button>Podcast</button>
+				</section>
+			<h5>coki</h5>
+			<button>Dansk</button>
+			</article>
+		</nav> -->
+		<main>
+			<section>
+				
+				<PlayVisAlle header1="Spotify-Playlister" link="Vis alle"></PlayVisAlle>
+			
+			
+				<div class="grid_card">
+				
+			<PlaylistCard header="Today top hits" text="Ny musik fra">
+				<img src="https://picsum.photos/id/65/150/150" alt="1">
+</PlaylistCard>
+		<PlaylistCard header="Today top hits" text="Ny musik fra">
+				<img src="https://picsum.photos/id/68/150/150" alt="2">
+</PlaylistCard>
+		<PlaylistCard header="Today top hits" text="Ny musik fra">
+				<img src="https://picsum.photos/id/76/150/150" alt="3">
+</PlaylistCard>
+		<PlaylistCard header="Today top hits" text="Ny musik fra">
+				<img src="https://picsum.photos/id/240/150/150" alt="4">
+</PlaylistCard>
+
+	
+
+		
+		</div>
+					<h1>Fokus</h1>
+				<div class="grid_card">
+				
+			<PlaylistCard header="Today top hits" text="Ny musik fra">
+				<img src="https://picsum.photos/id/65/150/150" alt="1">
+</PlaylistCard>
+		<PlaylistCard header="Today top hits" text="Ny musik fra">
+				<img src="https://picsum.photos/id/68/150/150" alt="2">
+</PlaylistCard>
+		<PlaylistCard header="Today top hits" text="Ny musik fra">
+				<img src="https://picsum.photos/id/76/150/150" alt="3">
+</PlaylistCard>
+		<PlaylistCard header="Today top hits" text="Ny musik fra">
+				<img src="https://picsum.photos/id/240/150/150" alt="4">
+</PlaylistCard>
+
+	
+
+		
+		</div>
+			</section>
+		</main>
+	
+	</body>
+</html>
